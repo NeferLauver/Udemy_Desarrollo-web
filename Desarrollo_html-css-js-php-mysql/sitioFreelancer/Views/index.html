@@ -4,44 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseño freelancer</title>
+    <link rel="stylesheet" href="/Styles/styles.css">
 </head>
 <body>
 
 
     <header>
-
-        <div class="logo_container-name">
-            <img src="/Imagenes/logo_neltec.png" alt="">
-        </div>
-
-            <nav class="navbar_container">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Clientes</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
-
-        <div class="">
-            <h1>Desing Web and Animation </h1>
-            
-        </div>
-    
-    
-        
+        <h1 class="titulo">Nefertari Laurel <span>Freelancer</span></h1>
     </header>
 
+    <!-- los a de enlace por defaul estan en horizontal -->
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Clientes</a>
+        <a href="#">Contacto </a>
+    </nav>
+
+    <section>
+        <h2 class="titulo">Diseño y desarrollo web <span>Freelancer</span>
+        </h2>
+
+        <p>
+            <img src="/Imagenes/marcador-de-posicion.png" alt="">
+        </p>
+        <p>Guadalajara Jalisco</p>
+        <a href="#">Contactar</a>
+
+
+    </section>
+
     <main>
+        <h2>Mis servicios</h2>
+
+        <section>
+            <h3>Diseño web</h3>
+            <img src="/Imagenes/Diseño_web.png" alt="">
+            <p>Lorem ipsum dolerum quae, corporis </p>
+        </section>
+
+        <section>
+            <h3>Animacion web</h3>
+            <img src="/Imagenes/aplicacion-movil.png" alt="">
+            <p>Lorem ipsum dolerum quae, corporis </p>
+        </section>
+
+        <section>
+            <h3>Diseño de apps</h3>
+            <img src="/Imagenes/e-commerce.png" alt="">
+            <p>Lorem ipsum dolerum quae, corporis </p>
+        </section>
 
     </main>
 
 
+    <section>
+        <h2>Contacto</h2>
+
+        <form>
+
+            <!-- llenar grupo de campos -->
+            <fieldset>
+                <!-- leyenda para formularios , es para dar indicacion o describir  -->
+                <legend> Contactanos llenando estos espacios </legend>
+
+                <div>
+                <!-- donde el usuario puede escribir , una indicacion como el nombre ne formumalior -->
+                    <label >Nombre:</label>
+                 <!-- donde puede dar click el usuario , un check -->
+                      <input type="text" placeholder="Escribe tu Nombre">
+                </div>
+
+                <div>
+                    <label>Telefono:</label>
+                    <input type="tel" placeholder="Numero de telefono">    
+                </div>
+
+                <div>
+                    <label>Correo Electronico:</label>
+                    <input type="email" placeholder="ejemplo@correo.com">
+                </div>
+                
+                <div>
+                    <label>Mensaje:</label>
+                    <textarea> Escriba aqui su mensaje.</textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+              
+
+            </fieldset>
+
+        </form>
+    </section>
+
+
     <footer>
-        
+        <p>Todos los derchos estan reservados</p>
     </footer>
 
-    
+
 </body>
 </html>
 
