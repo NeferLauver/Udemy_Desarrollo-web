@@ -1,3 +1,6 @@
+
+
+
 /* DEFINIR MEDIANTE PSEUDOSELECTOR mis variables que
 defino por colores , al custom properti le damos el nombre */
 
@@ -6,7 +9,7 @@ defino por colores , al custom properti le damos el nombre */
 /* colores */
     --blanco: #ffffff;
     --oscuro: #212121;
-    --primario:#FFC107;
+    --primario: #FFC107;
     --secundario: #0097a7;
     --gris: #757575;
 }
@@ -18,7 +21,7 @@ html {
 }
 
 body {
-    font-size: 16px; /*1rem = 16 px*/
+font-size: 16px; /*1rem = 10 px*/
     font-family: "Krub", sans-serif;
 }
 
@@ -29,6 +32,18 @@ body {
 }
 
 .titulo span{
-    font-size: 2rem;
-    
+    font-size: 2rem;  
+ }
+
+.contenedor {
+    width: 120rem; /*1200px*/
+    margin: 0 auto 0 auto;
+
+}
+
+/* cuando no puedo abarcar todoel ancho del sitio es por que
+me liminta mi contenedor   como con 120 rem*/
+
+ .navegacion-principal {
+    background-color: var(--secundario);
  }
