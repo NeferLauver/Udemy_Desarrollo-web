@@ -44,6 +44,18 @@ font-size: 16px; /*1rem = 10 px*/
 /* cuando no puedo abarcar todoel ancho del sitio es por que
 me liminta mi contenedor   como con 120 rem*/
 
- .navegacion-principal {
+.nav-bg {
     background-color: var(--secundario);
+} 
+
+.navegacion-principal {
+    /* background-color: var(--secundario); */
+    padding: 1rem;
+ }
+
+
+ .navegacion-principal a {
+    /* background-color: var(--primario); */
+    color: var(--blanco);
+    text-decoration: none;
  }
