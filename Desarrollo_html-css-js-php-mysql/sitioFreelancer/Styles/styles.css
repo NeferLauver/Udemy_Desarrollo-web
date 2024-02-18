@@ -51,6 +51,9 @@ me liminta mi contenedor   como con 120 rem*/
 .navegacion-principal {
     /* background-color: var(--secundario); */
     padding: 1rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
  }
 
 
