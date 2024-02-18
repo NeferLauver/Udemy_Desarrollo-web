@@ -44,9 +44,18 @@ me liminta mi contenedor   como con 120 rem*/
 .navegacion-principal {
   /* background-color: var(--secundario); */
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
+
+@media (min-with: 768px) {
+
+    .navegacion-principal {
+        flex-direction: row;
+    }
+    
+}
+
 
 .navegacion-principal a {
   /* background-color: var(--primario); */
@@ -62,11 +71,3 @@ me liminta mi contenedor   como con 120 rem*/
   padding: 1rem;
   color: var(--oscuro);
 }
-
-@media screen and (min-width: 480px) {
-     
-    body{
-        background-color: #ffc107;
-      }
-}
-
